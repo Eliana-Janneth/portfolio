@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import { Languages, Skills, ExtraSkills, InfoBase } from './organisms'
+import { Languages, Skills, ExtraSkills, InfoBase } from '../organisms'
 export default function LeftMenu() {
     return (
         <div className="w-[305px] bg-teal-100 flex flex-col items-center p-2">

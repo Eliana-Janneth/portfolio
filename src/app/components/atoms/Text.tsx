@@ -1,12 +1,14 @@
 
+import React from "react"
+
 type TextProps = {
-    value: string | number | undefined;
+    children: React.ReactNode;
 }
 
 
-export default function Text(props: TextProps) {
+export default function Text({children}: TextProps) {
     return (
-        <p className="font-roboto text-base text-gray-700 ">{props.value}</p>
+        <p className="font-roboto text-base text-gray-700 ">{children}</p>
     )
 }
 
