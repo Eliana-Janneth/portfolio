@@ -1,5 +1,5 @@
 import type { Config } from "tailwindcss";
-
+const { addDynamicIconSelectors } = require('@iconify/tailwind');
 const config: Config = {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -13,8 +13,14 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      fontFamily: {
+        roboto: ["Roboto", "sans-serif"],
+
+      },
     },
   },
-  plugins: [],
+  plugins: [
+    addDynamicIconSelectors(),
+  ],
 };
 export default config;
