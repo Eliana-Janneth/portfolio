@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { Card } from "../molecules";
 import { Knowledge } from "../organisms";
 
 export default function MainContent() {
@@ -16,11 +15,8 @@ export default function MainContent() {
                 <Image src="/foto.jpg" width={500} height={150} alt="Logo" className="rounded-full" />
 
             </div>
-            <div className="bg-green-400">
-                <p>my Knowledge</p>
-                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. lorem ipsum</p>
-              <Knowledge/>
-            </div>
+
+            <Knowledge />
         </div>
     )
 }

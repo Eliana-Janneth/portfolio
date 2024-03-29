@@ -1,10 +1,11 @@
 type IconProps = {
     iconName: string
+    size?: string
 }
 
 export default function Icon(props: IconProps) {
     return (
-        <span className={`${props.iconName} text-teal-700 text-2xl`}></span>
+        <span className={`${props.iconName} ${props.size} text-teal-700`}></span>
     )
 }
 
