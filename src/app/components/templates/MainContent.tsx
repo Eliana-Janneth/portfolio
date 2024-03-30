@@ -1,24 +1,15 @@
 import Image from "next/image";
-import { Education, Knowledge, Portfolio } from "../organisms";
+import { Education, Knowledge, MainInfo, Portfolio } from "../organisms";
 
 export default function MainContent() {
     return (
-        <div className="flex-1 flex bg-pink-50 flex-col p-2 items-center justify-center w-[900px]">
+        <main className="flex-1 flex bg-pink-50 flex-col p-2 items-center justify-center w-fit">
 
-            <div className="bg-white flex flex-row p-4">
-
-                <div className="flex flex-col justify-between items-start">
-                    <h1> Eliana Puerta</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et, volutpat feugiat placerat lobortis. Natoque rutrum semper sed suspendisse nunc lectus.</p>
-                    <button>hire me</button>
-                </div>
-                <Image src="/foto.jpg" width={500} height={150} alt="Logo" className="rounded-full" />
-
-            </div>
-
+            <MainInfo/>
             <Knowledge />
             <Education />
             <Portfolio />
-        </div>
+            
+        </main>
     )
 }
