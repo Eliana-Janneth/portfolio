@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Education, Knowledge } from "../organisms";
+import { Education, Knowledge, Portfolio } from "../organisms";
 
 export default function MainContent() {
     return (
@@ -18,6 +18,7 @@ export default function MainContent() {
 
             <Knowledge />
             <Education />
+            <Portfolio />
         </div>
     )
 }
