@@ -8,7 +8,7 @@ type TextProps = {
 
 export default function Text({ children }: TextProps) {
     return (
-        <p className="font-roboto text-base text-gray-700 text-justify">{children}</p>
+        <p className="text-sm text-gray-900 text-justify">{children}</p>
     )
 }
 

@@ -5,7 +5,7 @@ type IconProps = {
 
 export default function Icon(props: IconProps) {
     return (
-        <span className={`${props.iconName} ${props.size} text-pink-900`}></span>
+        <span className={`${props.iconName} ${props.size} text-pink-900 hover:text-pink-500`}></span>
     )
 }
 

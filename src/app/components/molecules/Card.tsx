@@ -5,6 +5,7 @@ type CardProps = {
     title: string
     text: string
     size?: string
+    link?: string
 }
 
 export default function Card(props: CardProps) {
@@ -13,6 +14,11 @@ export default function Card(props: CardProps) {
             <Icon iconName={props.iconName} size={props.size}></Icon>
             <Title >{props.title}</Title>
             <Text>{props.text}</Text>
+
+            {props.link && <a href={props.link} className="text-pink-900 hover:text-pink-500 font-bold text-sm">
+                <u>See more</u>
+            </a>}
+
         </div>
     )
 }

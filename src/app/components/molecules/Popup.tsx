@@ -10,7 +10,7 @@ type PopupProps = {
 
 export const PopUp = (props: PopupProps) => (
   <Popup open={props.open} closeOnDocumentClick onClose={props.closeModal}>
-    <div className="modal bg-pink-50 w-1/2 p-10 rounded-lg">
+    <div className="modal bg-pink-50 w-96 p-10 rounded-lg">
       <a className="close" onClick={props.closeModal}>
         &times;
       </a>

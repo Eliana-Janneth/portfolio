@@ -12,9 +12,9 @@ export default function Knowledge() {
 
             <div className="grid grid-cols-3 gap-4">
 
-                <Card title="web development" text="Frontend and Backend" iconName="icon-[iconoir--favourite-window]" size="text-8xl"></Card>
-                <Card title="web development" text="Frontend and Backend" iconName="icon-[iconoir--favourite-window]" size="text-8xl"></Card>
-                <Card title="web development" text="Frontend and Backend" iconName="icon-[iconoir--favourite-window]" size="text-8xl"></Card>
+                <Card title="Web development" text="Frontend and Backend Development." iconName="icon-[line-md--cloud-tags-loop]" size="text-8xl"></Card>
+                <Card title="Principles and Patterns" text="Design patterns, component-based architecture, UI/UX patterns, SOLID, version control." iconName="icon-[line-md--cog-loop]" size="text-8xl"></Card>
+                <Card title="Databases" text="SQL Server, MySQL, data modeling, database standardization, triggers, Amazon Redshift." iconName="icon-[line-md--cloud-print-loop]" size="text-8xl"></Card>
 
             </div>
         </main>
