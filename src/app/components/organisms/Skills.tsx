@@ -4,7 +4,7 @@ import { ProgressBarWithText } from "../molecules";
 
 export default function Skills() {
     return (
-        <div className='flex flex-col w-[220px] h-min'>
+        <div className='flex flex-col w-full h-min'>
             <Title>Programming Languages</Title>
             <ProgressBarWithText title="JavaScript " value={80}></ProgressBarWithText>
             <ProgressBarWithText title="SQL" value={90}></ProgressBarWithText>

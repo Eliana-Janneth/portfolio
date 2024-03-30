@@ -3,7 +3,7 @@ import { Languages, Skills, ExtraSkills, InfoBase, Frameworks } from '../organis
 import { HorizontalLine } from '../atoms'
 export default function SidebarLeft() {
     return (
-        <div className="w-[305px] bg-white flex flex-col items-center p-2">
+        <div className="w-fit bg-white flex flex-col items-center p-8">
 
             <div className="w-[150px] h-[242px] flex flex-col items-center">
                 <Image src="/foto.jpg" width={150} height={150} alt="Logo" className="rounded-full" />

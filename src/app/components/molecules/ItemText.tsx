@@ -9,9 +9,9 @@ type ItemTextProps = {
 
 export default function ItemText(props: ItemTextProps) {
     return (
-        <div className="flex justify-between w-full">
-            {props.iconName && <Icon iconName={props.iconName} size={props.size}></Icon>}
-            <Text >{props.title}</Text>
+        <div className="flex justify-between w-full mt-2">
+            {props.iconName && <Icon iconName={props.iconName} size={props.size}></Icon> }
+            <Text>{props.title}</Text>
             <Text>{props.value}</Text>
         </div>
     )
