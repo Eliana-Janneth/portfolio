@@ -2,14 +2,13 @@
 import Image from "next/image";
 import { useState } from "react";
 import Popup from "reactjs-popup";
+import { PopUp } from "../molecules/Popup";
 
 
 export default function Education() {
     const [open, setOpen] = useState(false);
     const closeModal = () => setOpen(false);
-    if (typeof window === 'undefined') {
-        return null; // Retorna null para no renderizar nada en el lado del servidor
-    }
+
     return (
         <>
             <main className="bg-white flex flex-row p-4">
@@ -22,18 +21,13 @@ export default function Education() {
                     <button className="rounded-lg font-semibold w-fit bg-pink-500 text-black py-2 px-6 text-xl flex items-center" onClick={() => setOpen(o => !o)}>HIRE ME
                         <span className="icon-[mingcute--arrow-right-fill] pl-6"></span>
                     </button>
-                    <Popup open={open} closeOnDocumentClick onClose={closeModal}>
-                        <div className="modal bg-pink-50  p-10 rounded-lg">
-                                <a className="close" onClick={closeModal}>
-                                    &times;
-                                </a>
+                    <PopUp open={open} closeModal={closeModal} >
+                        <p className="text-justify text-base text-pink-50">
+                            I&apos;m characterized by being a creative person, with a desire to excel and goals based on objectives;
+                            I&apos;m a fast learner and I am interested in fulfilling my work properly, punctually and responsibly.<br />
+                            I have the ability to work in a team, with a high degree of commitment and love for what I do, I like to be in constant learning, be disciplined and have excellent interpersonal relationships.</p>
+                    </PopUp>
 
-                            <p className="text-justify text-base">
-                                I&apos;m characterized by being a creative person, with a desire to excel and goals based on objectives;
-                                I&apos;m a fast learner and I am interested in fulfilling my work properly, punctually and responsibly.<br />
-                                I have the ability to work in a team, with a high degree of commitment and love for what I do, I like to be in constant learning, be disciplined and have excellent interpersonal relationships.</p>
-                        </div>
-                    </Popup>
 
                 </section>
                 <Image src="/foto.jpg" width={500} height={150} alt="Logo" className="rounded-full" />

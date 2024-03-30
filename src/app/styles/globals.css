@@ -6,6 +6,18 @@
 
 
 
+.text-gradient:hover {
+  background-image: linear-gradient(to right, #5A67D8, #7F3ACE, #E63A7A);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+
+
+
+
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;

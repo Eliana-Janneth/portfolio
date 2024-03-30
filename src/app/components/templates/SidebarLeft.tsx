@@ -3,12 +3,12 @@ import { Languages, Skills, ExtraSkills, InfoBase, Frameworks } from '../organis
 import { HorizontalLine } from '../atoms'
 export default function SidebarLeft() {
     return (
-        <div className="w-fit bg-white flex flex-col items-center p-8">
+        <div className="w-full lg:w-fit bg-white flex flex-col items-center p-8">
 
-            <div className=" h-min flex flex-col items-center">
+            <div className="h-min flex flex-col items-center">
                 <Image src="/foto.jpg" width={150} height={150} alt="Logo" className="rounded-full" />
-                <h1 className='text-lg font-semibold '>Eliana Puerta</h1>
-                <p className='text-sm'>Fron-End Developer</p>
+                <h1 className='text-lg font-semibold text-gradient   '>Eliana Puerta</h1>
+                <p className='text-sm'><i>Systems Engineering Student</i></p>
             </div>
 
             <HorizontalLine />
@@ -21,6 +21,8 @@ export default function SidebarLeft() {
             <Frameworks />
             <HorizontalLine />
             <ExtraSkills />
+
         </div>
+
     )
 }
