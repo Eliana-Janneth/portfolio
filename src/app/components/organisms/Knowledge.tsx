@@ -1,7 +1,7 @@
 import { Text, Title } from "../atoms";
 import { Card, } from "../molecules";
 
-export default function InfoBase() {
+export default function Knowledge() {
     return (
 
         <main className="flex flex-col gap-4 w-full">

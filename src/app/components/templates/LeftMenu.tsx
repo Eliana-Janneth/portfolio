@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import { Languages, Skills, ExtraSkills, InfoBase } from '../organisms'
+import { HorizontalLine } from '../atoms'
 export default function LeftMenu() {
     return (
         <div className="w-[305px] bg-teal-100 flex flex-col items-center p-2">
@@ -9,11 +10,15 @@ export default function LeftMenu() {
                 <h1 className='text-lg font-semibold '>Eliana Puerta</h1>
                 <p className='text-sm'>Fron-End Developer</p>
             </div>
-
-            <InfoBase></InfoBase>
-            <Languages></Languages>
-            <Skills></Skills>
-            <ExtraSkills></ExtraSkills>
+            
+            <HorizontalLine />
+            <InfoBase />
+            <HorizontalLine />
+            <Languages />
+            <HorizontalLine />
+            <Skills />
+            <HorizontalLine />
+            <ExtraSkills />
         </div>
     )
 }
