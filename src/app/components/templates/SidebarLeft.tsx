@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import { Languages, Skills, ExtraSkills, InfoBase } from '../organisms'
+import { Languages, Skills, ExtraSkills, InfoBase, Frameworks } from '../organisms'
 import { HorizontalLine } from '../atoms'
 export default function SidebarLeft() {
     return (
@@ -17,6 +17,8 @@ export default function SidebarLeft() {
             <Languages />
             <HorizontalLine />
             <Skills />
+            <HorizontalLine />
+            <Frameworks />
             <HorizontalLine />
             <ExtraSkills />
         </div>
