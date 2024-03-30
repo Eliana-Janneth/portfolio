@@ -6,9 +6,9 @@ type TextProps = {
 }
 
 
-export default function Text({children}: TextProps) {
+export default function Text({ children }: TextProps) {
     return (
-        <p className="font-roboto text-base text-gray-700 ">{children}</p>
+        <p className="font-roboto text-base text-gray-700 text-justify">{children}</p>
     )
 }
 

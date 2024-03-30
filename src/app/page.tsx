@@ -1,13 +1,13 @@
-import {SidebarLeft,MainContent, SidebarRight} from "./components/templates";
+import { SidebarLeft, MainContent, SidebarRight } from "./components/templates";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen text-gray-900 justify-between bg-teal-50">
+    <main className="flex min-h-screen gap-3 justify-between bg-pink-50">
 
       <SidebarLeft />
-        <MainContent />
+      <MainContent />
 
-      <SidebarRight/>
+      <SidebarRight />
 
     </main>
   );

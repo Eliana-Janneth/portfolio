@@ -4,8 +4,8 @@ type ProgressBarProps = {
 
 export default function ProgressBar(props: ProgressBarProps) {
     return (
-        <div className="w-full bg-teal-300 rounded-lg overflow-hidden">
-            <div className="bg-teal-500 h-2" style={{ width: `${props.value}%` }}></div>
+        <div className="w-full bg-pink-300 rounded-lg overflow-hidden">
+            <div className="bg-pink-900 h-2" style={{ width: `${props.value}%` }}></div>
         </div>
     )
 }

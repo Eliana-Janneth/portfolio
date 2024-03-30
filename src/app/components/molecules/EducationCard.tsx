@@ -21,7 +21,7 @@ export default function EducationCard(props: EducationCardProps) {
                 </div>
             </section>
             <section className="flex flex-col flex-1 items-center gap-4" >
-                <Title>{props.title}</Title>
+                <Title>{props.typeEducation}</Title>
                 <Text >{props.description}</Text>
             </section>
         </main>
