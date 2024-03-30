@@ -6,7 +6,7 @@ export default function Knowledge() {
 
         <main className="flex flex-col gap-4 w-full">
             <div className="flex flex-col justify-center items-center p-2 ">
-                <Title>My Knowledge</Title>
+                <Title size="text-3xl">My Knowledge</Title>
                 <p className="w-1/2 text-center font-roboto text-base text-gray-700">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. lorem ipsum</p>
             </div>
 
