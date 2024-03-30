@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import { Languages, Skills, ExtraSkills, InfoBase } from '../organisms'
 import { HorizontalLine } from '../atoms'
-export default function LeftMenu() {
+export default function SidebarLeft() {
     return (
         <div className="w-[305px] bg-teal-100 flex flex-col items-center p-2">
 
