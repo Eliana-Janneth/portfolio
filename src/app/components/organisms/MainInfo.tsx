@@ -1,7 +1,6 @@
 "use client";
 import Image from "next/image";
 import { useState } from "react";
-import Popup from "reactjs-popup";
 import { PopUp } from "../molecules/Popup";
 
 
@@ -11,7 +10,7 @@ export default function Education() {
 
     return (
         <>
-            <main className="bg-white flex flex-row p-4">
+            <main className="bg-white flex flex-col lg:flex-row p-4">
                 <section className="flex flex-col justify-between gap-8 py-8 items-start">
                     <div className="gap-2">
                         <h1 className="text-5xl font-bold"> I&apos;m Eliana Puerta</h1>
@@ -27,7 +26,6 @@ export default function Education() {
                             I&apos;m a fast learner and I am interested in fulfilling my work properly, punctually and responsibly.<br />
                             I have the ability to work in a team, with a high degree of commitment and love for what I do, I like to be in constant learning, be disciplined and have excellent interpersonal relationships.</p>
                     </PopUp>
-
 
                 </section>
                 <Image src="/foto.jpg" width={500} height={150} alt="Logo" className="rounded-full" />

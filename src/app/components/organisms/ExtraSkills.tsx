@@ -5,7 +5,7 @@ import { ItemText } from "../molecules";
 export default function ExtraSkills() {
     return (
         <div className='flex flex-col w-full h-min items-start '>
-            <Title size="text-xl">Extra Skills</Title>
+            <Title>Extra Skills</Title>
 
             <ItemText title="UML" iconName="icon-[raphael--diagram]"></ItemText>
             <ItemText title="GitHub" iconName="icon-[mingcute--github-fill]"></ItemText>
