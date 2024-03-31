@@ -17,7 +17,7 @@ export default function Education() {
                         <h1 className="font-bold text-5xl"><span className="text-pink-500 text-gradient">Front-end</span> Developer</h1>
                     </div>
                     <p>I&apos;m a passionate software developer, I enjoy creating web applications focused on the frontend and I am constantly exploring new technologies to improve my skills.</p>
-                    <button className="rounded-lg font-semibold w-fit bg-pink-500 text-black py-2 px-6 text-xl flex items-center hover:text-white hover:bg-pink-900" onClick={() => setOpen(o => !o)}>HIRE ME
+                    <button className="rounded-lg font-semibold w-fit bg-pink-500 text-black py-2 px-6 text-xl flex items-center text-gradient-color" onClick={() => setOpen(o => !o)}>HIRE ME
                         <span className="icon-[mingcute--arrow-right-fill] pl-6"></span>
                     </button>
                     <PopUp open={open} closeModal={closeModal} >
