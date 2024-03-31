@@ -7,7 +7,7 @@ export default function Skills() {
         <div className='flex flex-col w-full h-min'>
             <Title >Programming Languages</Title>
             <ProgressBarWithText title="JavaScript " value={80}></ProgressBarWithText>
-            <ProgressBarWithText title="SQL" value={90}></ProgressBarWithText>
+            <ProgressBarWithText title="SQL" value={80}></ProgressBarWithText>
             <ProgressBarWithText title="Java" value={80}></ProgressBarWithText>
             <ProgressBarWithText title="Node.js " value={70}></ProgressBarWithText>
             <ProgressBarWithText title="Python" value={60}></ProgressBarWithText>

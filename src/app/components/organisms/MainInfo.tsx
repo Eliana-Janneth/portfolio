@@ -3,6 +3,7 @@ import Image from "next/image";
 import { useState } from "react";
 import { PopUp } from "../molecules/Popup";
 import Confetti from 'react-confetti'
+import ContactForm from "../molecules/ContactForm";
 
 export default function MainInfo() {
     const [open, setOpen] = useState(false);
@@ -41,6 +42,9 @@ export default function MainInfo() {
                             I&apos;m characterized by being a creative person, with a desire to excel and goals based on objectives;
                             I&apos;m a fast learner and I am interested in fulfilling my work properly, punctually and responsibly.<br />
                             I have the ability to work in a team, with a high degree of commitment and love for what I do, I like to be in constant learning, be disciplined and have excellent interpersonal relationships.</p>
+                    
+                        {/* <ContactForm/> */}
+                    
                     </PopUp>
 
                 </section>
