@@ -24,6 +24,14 @@
   @apply hover:bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 hover:text-white
 }
 
+.color-primary {
+  @apply bg-white
+}
+
+.color-secondary {
+  @apply bg-purple-200
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;

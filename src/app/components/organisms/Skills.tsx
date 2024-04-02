@@ -10,7 +10,6 @@ export default function Skills() {
             <ProgressBarWithText title="SQL" value={80}></ProgressBarWithText>
             <ProgressBarWithText title="Java" value={80}></ProgressBarWithText>
             <ProgressBarWithText title="Node.js " value={70}></ProgressBarWithText>
-            <ProgressBarWithText title="Python" value={60}></ProgressBarWithText>
 
         </div>
     )

@@ -10,7 +10,7 @@ type CardProps = {
 
 export default function Card(props: CardProps) {
     return (
-        <div className="bg-white flex flex-col items-center w-full p-4 gap-2">
+        <div className="color-primary flex flex-col items-center w-full p-4 gap-2 drop-shadow-xl hover:drop-shadow-2xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-95 hover:color-secondary duration-300">
             <Icon iconName={props.iconName} size={props.size}></Icon>
             <Title >{props.title}</Title>
             <Text>{props.text}</Text>

@@ -19,7 +19,7 @@ export default function MainInfo() {
 
     return (
         <>
-            <main className="bg-white flex flex-col lg:flex-row p-4">
+            <main className="color-primary flex flex-col lg:flex-row p-4">
                 <section className="flex flex-col justify-between gap-8 py-8 items-start">
                     <div className="gap-2">
                         <h1 className="text-5xl font-bold"> I&apos;m Eliana Puerta</h1>
@@ -42,9 +42,9 @@ export default function MainInfo() {
                             I&apos;m characterized by being a creative person, with a desire to excel and goals based on objectives;
                             I&apos;m a fast learner and I am interested in fulfilling my work properly, punctually and responsibly.<br />
                             I have the ability to work in a team, with a high degree of commitment and love for what I do, I like to be in constant learning, be disciplined and have excellent interpersonal relationships.</p>
-                    
+
                         {/* <ContactForm/> */}
-                    
+
                     </PopUp>
 
                 </section>
