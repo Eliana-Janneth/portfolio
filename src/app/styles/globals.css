@@ -4,36 +4,34 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
 .text-gradient {
-  background-image: linear-gradient(to right, #5A67D8, #7F3ACE, #E63A7A);
+  background-image: linear-gradient(to right, #5a67d8, #7f3ace, #e63a7a);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
 }
 
 .button-gradient:hover {
-  background-image: linear-gradient(to right, #5A67D8, #7F3ACE, #E63A7A);
+  background-image: linear-gradient(to right, #5a67d8, #7f3ace, #e63a7a);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
 }
 
 .text-gradient-color {
-  @apply hover:bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 hover:text-white
+  @apply from-indigo-500 via-purple-500 to-pink-500 hover:bg-gradient-to-r hover:text-white;
 }
 
 .color-primary {
-  @apply bg-white
+  @apply bg-white;
 }
 
 .color-background-primary {
-  @apply bg-pink-50
+  @apply bg-gray-200;
 }
 
 .color-secondary {
-  @apply bg-[#F9CFC7] hover:bg-pink-400 
+  @apply bg-[#F9CFC7] hover:bg-pink-400;
 }
 
 :root {
@@ -49,7 +47,6 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
-
 
 @layer utilities {
   .text-balance {

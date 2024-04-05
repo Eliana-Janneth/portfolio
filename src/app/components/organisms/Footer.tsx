@@ -1,15 +1,13 @@
-import { Icon } from "../atoms";
+import { Icon } from '../atoms'
 
 export default function Footer() {
-    return (
-        <footer className="py-4 color-primary text-center justify-center items-center text-xs text-gray-700 w-full flex flex-col gap-1">
-            <p>2024 All Rights Reserved</p>
-            <div className="flex gap-1 items-center">
-                <Icon iconName="icon-[mdi--copyright]" />
-                <p>Eliana Puerta</p>
-            </div>
-
-
-        </footer>
-    )
+  return (
+    <footer className="color-primary flex w-full flex-col items-center justify-center gap-1 py-4 text-center text-xs text-gray-700">
+      <p>2024 All Rights Reserved</p>
+      <div className="flex items-center gap-1">
+        <Icon iconName="icon-[mdi--copyright]" />
+        <p>Eliana Puerta</p>
+      </div>
+    </footer>
+  )
 }
