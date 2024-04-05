@@ -23,9 +23,4 @@ const config: Config = {
     addDynamicIconSelectors(),
   ],
 };
-
-module.exports = {
-  tailwindConfig: './styles/tailwind.config.js',
-}
-
 export default config;

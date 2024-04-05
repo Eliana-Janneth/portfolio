@@ -1,28 +1,25 @@
-import { Icon, Text, Title } from '../atoms'
+import { Icon, Text, Title } from "../atoms"
 
 type CardProps = {
-  iconName: string
-  title: string
-  text: string
-  size?: string
-  link?: string
+    iconName: string
+    title: string
+    text: string
+    size?: string
+    link?: string
 }
 
 export default function Card({ iconName, title, text, size, link }: CardProps) {
-  return (
-    <div className="color-primary hover:color-background-primary flex w-full flex-col items-center gap-2 p-4 drop-shadow-xl transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-95 hover:drop-shadow-2xl">
-      <Icon iconName={iconName} size={size}></Icon>
-      <Title>{title}</Title>
-      <Text>{text}</Text>
+    return (
+        <div className="color-primary flex flex-col items-center w-full p-4 gap-2 drop-shadow-xl hover:drop-shadow-2xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-95 hover:color-background-primary duration-300">
+            <Icon iconName={iconName} size={size}></Icon>
+            <Title >{title}</Title>
+            <Text>{text}</Text>
 
-      {link && (
-        <a
-          href={link}
-          className="text-sm font-bold text-pink-900 hover:text-pink-500"
-        >
-          <u>See more</u>
-        </a>
-      )}
-    </div>
-  )
+            {link && <a href={link} className="text-pink-900 hover:text-pink-500 font-bold text-sm">
+                <u>See more</u>
+            </a>}
+
+        </div>
+    )
 }
+
