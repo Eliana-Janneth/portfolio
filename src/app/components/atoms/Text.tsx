@@ -7,9 +7,9 @@ type TextProps = {
 }
 
 
-export default function Text(props: TextProps) {
+export default function Text({classText, children}: TextProps) {
     return (
-        <p className={`text-sm font-normal ${props.classText ? props.classText : 'text-black text-justify'}`}>{props.children}</p>
+        <p className={`text-sm font-normal ${classText ? classText : 'text-black text-justify'}`}>{children}</p>
     )
 }
 

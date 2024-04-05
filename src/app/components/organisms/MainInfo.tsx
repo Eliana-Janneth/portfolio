@@ -3,7 +3,6 @@ import Image from "next/image";
 import { useState } from "react";
 import { PopUp } from "../molecules/Popup";
 import Confetti from 'react-confetti'
-import ContactForm from "../molecules/ContactForm";
 
 export default function MainInfo() {
     const [open, setOpen] = useState(false);
@@ -17,6 +16,9 @@ export default function MainInfo() {
         }, 3500);
     };
 
+    const contactMeOnClick = () => {
+        window.open('mailto:janneth.0069@gmail.com', '_blank')
+    }
     return (
         <>
             <main className="color-primary flex flex-col lg:flex-row p-4">
@@ -27,10 +29,11 @@ export default function MainInfo() {
                     </div>
                     <p>I&apos;m a passionate software developer, I enjoy creating web applications focused on the frontend and I&apos;m constantly exploring new technologies to improve my skills.</p>
                     <button className="rounded-lg font-semibold w-fit bg-pink-500 text-black py-2 px-6 text-xl flex items-center text-gradient-color"
-                        onClick={() => {
-                            setOpen(o => !o);
-                            handleClick();
-                        }}
+                        // onClick={() => {
+                        //     setOpen(o => !o);
+                        //     handleClick();
+                        // }}
+                        onClick={contactMeOnClick}
                     >HIRE ME
                         <span className="icon-[mingcute--arrow-right-fill] pl-6"></span>
                     </button>
@@ -43,12 +46,11 @@ export default function MainInfo() {
                             I&apos;m a fast learner and I am interested in fulfilling my work properly, punctually and responsibly.<br />
                             I have the ability to work in a team, with a high degree of commitment and love for what I do, I like to be in constant learning, be disciplined and have excellent interpersonal relationships.</p>
 
-                        {/* <ContactForm/> */}
 
                     </PopUp>
 
                 </section>
-                <Image src="/foto.jpg" width={500} height={150} alt="Logo" className="rounded-full" />
+                <Image src="/photoMain.png" width={300} height={150} alt="Photo" />
             </main>
         </>
     )

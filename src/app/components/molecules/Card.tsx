@@ -8,14 +8,14 @@ type CardProps = {
     link?: string
 }
 
-export default function Card(props: CardProps) {
+export default function Card({ iconName, title, text, size, link }: CardProps) {
     return (
         <div className="color-primary flex flex-col items-center w-full p-4 gap-2 drop-shadow-xl hover:drop-shadow-2xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-95 hover:color-secondary duration-300">
-            <Icon iconName={props.iconName} size={props.size}></Icon>
-            <Title >{props.title}</Title>
-            <Text>{props.text}</Text>
+            <Icon iconName={iconName} size={size}></Icon>
+            <Title >{title}</Title>
+            <Text>{text}</Text>
 
-            {props.link && <a href={props.link} className="text-pink-900 hover:text-pink-500 font-bold text-sm">
+            {link && <a href={link} className="text-pink-900 hover:text-pink-500 font-bold text-sm">
                 <u>See more</u>
             </a>}
 

@@ -3,9 +3,9 @@ type IconProps = {
     size?: string
 }
 
-export default function Icon(props: IconProps) {
+export default function Icon({iconName,size}: IconProps) {
     return (
-        <span className={`${props.iconName} ${props.size} text-pink-900 hover:text-pink-500`}></span>
+        <span className={`${iconName} ${size} text-pink-900 hover:text-pink-500`}></span>
     )
 }
 

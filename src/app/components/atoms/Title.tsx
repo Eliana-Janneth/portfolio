@@ -5,8 +5,8 @@ type TitleProps = {
     size?: string;
 }
 
-export default function Title(props: TitleProps) {
+export default function Title({children,size}: TitleProps) {
     return (
-        <h1 className={`text-pink-700 hover:text-pink-500 drop-shadow-md ${props.size ? `${props.size} font-bold` : 'text-lg font-semibold'}`}>{props.children}</h1>
+        <h1 className={`text-pink-700 hover:text-pink-500 drop-shadow-md ${size ? `${size} font-bold` : 'text-lg font-semibold'}`}>{children}</h1>
     );
 }

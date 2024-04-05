@@ -8,12 +8,12 @@ type ItemTextProps = {
     classText?: string;
 }
 
-export default function ItemText(props: ItemTextProps) {
+export default function ItemText({ title, value, iconName, size, classText }: ItemTextProps) {
     return (
-        <div className={`flex ${props.iconName ? 'justify-start items-center' : 'justify-between'} w-full mt-2 `}>
-            {props.iconName && <Icon iconName={props.iconName} size="text-3xl"></Icon>}
-            <Text classText={`${props.iconName && 'pl-4'}`}>{props.title}</Text>
-            <Text classText={`font-medium ${props.classText}`}>{props.value}</Text>
+        <div className={`flex ${iconName ? 'justify-start items-center' : 'justify-between'} w-full mt-2 `}>
+            {iconName && <Icon iconName={iconName} size="text-3xl"></Icon>}
+            <Text classText={`${iconName && 'pl-4'}`}>{title}</Text>
+            <Text classText={`font-medium ${classText}`}>{value}</Text>
         </div>
     )
 }
