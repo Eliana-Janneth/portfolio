@@ -17,7 +17,7 @@ export default function EducationCard({ title, text, size, initialDate, finalDat
                 <Title>{title}</Title>
                 <div className='flex justify-between items-center my-4 gap-10'>
                     <Text>{text}</Text>
-                    <span className="bg-pink-500 w-fit text-white px-2 text-sm hover:bg-pink-900">{initialDate} - {finalDate}</span>
+                    <span className="color-secondary w-fit text-gray-500 font-semibold px-2 text-sm ">{initialDate} - {finalDate}</span>
                 </div>
             </section>
             <section className="flex flex-col flex-1 items-center gap-4" >
