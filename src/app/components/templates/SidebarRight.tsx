@@ -9,19 +9,19 @@ export default function SidebarRight() {
         href="https://github.com/eliana-janneth/"
         className="text-gradient-color flex justify-center rounded-full bg-pink-900 p-2"
       >
-        <span className="icon-[line-md--github-loop] text-4xl text-pink-50 hover:text-white"></span>
+        <span className="icon-[line-md--github-loop] text-2xl text-pink-50 hover:text-white"></span>
       </a>
       <a
         href="https://www.linkedin.com/in/eliana-puerta/"
         className="text-gradient-color flex justify-center rounded-full bg-pink-900 p-2"
       >
-        <span className="icon-[line-md--linkedin] text-4xl text-pink-50 hover:text-white"></span>
+        <span className="icon-[line-md--linkedin] text-2xl text-pink-50 hover:text-white"></span>
       </a>
       <a
         href="https://www.instagram.com/elianaj_puerta/"
         className="text-gradient-color flex justify-center rounded-full bg-pink-900 p-2"
       >
-        <span className="icon-[line-md--instagram] text-4xl text-pink-50 hover:text-white"></span>
+        <span className="icon-[line-md--instagram] text-2xl text-pink-50 hover:text-white"></span>
       </a>
     </div>
   )

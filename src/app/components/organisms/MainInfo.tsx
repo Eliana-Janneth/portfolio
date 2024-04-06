@@ -36,7 +36,7 @@ export default function MainInfo() {
             exploring new technologies to improve my skills.
           </p>
           <button
-            className="text-gradient-color flex w-fit items-center rounded-lg bg-pink-400 px-6 py-2 text-xl font-semibold text-black"
+            className="text-gradient-color flex w-fit items-center rounded-lg border-2 border-pink-400 px-6 py-2 hover:border-0 text-xl font-semibold text-black"
             // onClick={() => {
             //     setOpen(o => !o);
             //     handleClick();

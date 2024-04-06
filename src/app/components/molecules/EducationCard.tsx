@@ -25,7 +25,7 @@ export default function EducationCard({
         <Title>{title}</Title>
         <div className="my-4 flex items-center justify-between gap-10">
           <Text>{text}</Text>
-          <span className="color-secondary w-fit px-2 text-sm font-semibold text-gray-500 ">
+          <span className="bg-[#F9CFC7] w-fit px-2 text-sm font-semibold text-gray-500 ">
             {initialDate} - {finalDate}
           </span>
         </div>
