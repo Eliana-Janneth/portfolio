@@ -20,8 +20,8 @@ export default function SidebarLeft() {
           alt="photo"
           className="rounded-full"
         />
-        <h1 className="text-gradient text-lg font-bold   ">Eliana Puerta</h1>
-        <p className="text-sm font-semibold">
+        <h1 className="text-gradient text-lg font-bold">Eliana Puerta</h1>
+        <p className="text-sm font-semibold whitespace-nowrap">
           <i>Systems Engineering Student</i>
         </p>
       </div>
