@@ -14,7 +14,7 @@ export default function Knowledge() {
       <div className="grid grid-cols-1 gap-4 lg:grid-cols-3">
         <Card
           title="Web development"
-          text="Frontend and Backend Development."
+          text="Proficient in both Frontend and Backend Development, implementing RESTful APIs, and  in crafting user interfaces with responsive design principles."
           iconName="icon-[line-md--cloud-tags-loop]"
           size="text-8xl"
         ></Card>

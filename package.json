@@ -11,18 +11,21 @@
   "dependencies": {
     "i": "^0.3.7",
     "next": "14.1.4",
+    "primereact": "^10.6.2",
     "react": "^18",
     "react-confetti": "^6.1.0",
     "react-dom": "^18",
     "reactjs-popup": "^2.0.6"
   },
   "devDependencies": {
+    "@iconify-json/devicon": "^1.1.36",
     "@iconify-json/iconoir": "^1.1.42",
     "@iconify-json/line-md": "^1.1.37",
     "@iconify-json/material-symbols": "^1.1.76",
     "@iconify-json/mdi": "^1.1.64",
     "@iconify-json/mingcute": "^1.1.17",
     "@iconify-json/raphael": "^1.1.8",
+    "@iconify-json/skill-icons": "^1.1.8",
     "@iconify/tailwind": "^0.1.4",
     "@types/node": "^20",
     "@types/react": "^18",

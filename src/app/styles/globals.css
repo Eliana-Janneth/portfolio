@@ -21,6 +21,9 @@
 .text-gradient-color {
   @apply from-indigo-500 via-purple-500 to-pink-500 hover:bg-gradient-to-r hover:text-white;
 }
+.text-gradient-color-bg {
+  @apply from-indigo-500 via-purple-500 to-pink-500 bg-gradient-to-r text-white;
+}
 
 .color-primary {
   @apply bg-white;
