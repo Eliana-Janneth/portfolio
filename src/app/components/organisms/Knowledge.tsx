@@ -1,6 +1,8 @@
 import { Text, Title } from '../atoms'
 import { Card } from '../molecules'
 
+
+//organismo que contiene los componentes moleculas Title y Card para mostrar la información de conocimientos
 export default function Knowledge() {
   return (
     <main className="flex w-full flex-col gap-4">

@@ -8,6 +8,7 @@ type ItemTextProps = {
   classText?: string
 }
 
+//función para crear un texto con ícono, título y valor
 export default function ItemText({
   title,
   value,

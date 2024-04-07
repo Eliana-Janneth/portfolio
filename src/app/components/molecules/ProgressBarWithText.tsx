@@ -6,6 +6,7 @@ type ProgressBarWithTextProps = {
   value: number
 }
 
+//función para crear una barra de progreso con texto
 export default function ProgressBarWithText({
   title,
   value,

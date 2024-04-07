@@ -1,11 +1,12 @@
 import { Title } from '../atoms'
 import { ItemText } from '../molecules'
 
+
+//componente organismo que contiene los componentes moleculas Title e ItemText para mostrar habilidades extra
 export default function ExtraSkills() {
   return (
     <div className="flex h-min w-full flex-col items-start ">
       <Title>Extra Skills</Title>
-
       <ItemText title="UML" iconName="icon-[raphael--diagram]"></ItemText>
       <ItemText
         title="GitHub"

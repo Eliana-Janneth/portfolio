@@ -1,9 +1,10 @@
 import { Title } from '../atoms'
 
+//template que contiene los links de redes sociales
 export default function SidebarRight() {
   return (
     <div className="color-primary sticky right-0 top-0 flex h-fit flex-row items-center justify-center gap-2 p-2 lg:h-screen lg:flex-col lg:justify-start ">
-      <Title classTitle='hidden lg:block'>Links</Title>
+      <Title classTitle="hidden lg:block">Links</Title>
 
       <a
         href="https://github.com/eliana-janneth/"

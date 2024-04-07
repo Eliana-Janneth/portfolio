@@ -5,8 +5,8 @@ import { PopUp } from '../molecules/Popup'
 import Confetti from 'react-confetti'
 
 export default function MainInfo() {
-  const [open, setOpen] = useState(false);
-  const closeModal = () => setOpen(false);
+  const [open, setOpen] = useState(false)
+  const closeModal = () => setOpen(false)
   const [showConfetti, setShowConfetti] = useState(false)
 
   const handleClick = () => {
@@ -36,27 +36,33 @@ export default function MainInfo() {
             exploring new technologies to improve my skills.
           </p>
           <button
-            className="text-gradient-color flex w-fit items-center rounded-lg border-2 border-pink-400 px-6 py-2 hover:border-0 text-xl font-semibold text-black"
+            className="text-gradient-color flex w-fit items-center rounded-lg border-2 border-pink-400 px-6 py-2 text-xl font-semibold text-black hover:border-0"
             onClick={() => {
-              setOpen(o => !o);
-              handleClick();
+              setOpen((o) => !o)
+              handleClick()
             }}
           >
             ABOUT ME
             <span className="icon-[mingcute--arrow-right-fill] pl-6"></span>
           </button>
           {showConfetti && <Confetti />}
-          <PopUp open={open} closeModal={closeModal} >
+          <PopUp open={open} closeModal={closeModal}>
             <div className="flex flex-col items-center gap-2">
               <p className="text-justify text-base text-gray-700">
-                I&apos;m characterized by being a creative person, with a desire to excel and goals based on objectives;
-                I&apos;m a fast learner and I am interested in fulfilling my work properly, punctually and responsibly.<br />
-                I have the ability to work in a team, with a high degree of commitment and love for what I do, I like to be in constant learning, be disciplined and have excellent interpersonal relationships.</p>
+                I&apos;m characterized by being a creative person, with a desire
+                to excel and goals based on objectives; I&apos;m a fast learner
+                and I am interested in fulfilling my work properly, punctually
+                and responsibly.
+                <br />I have the ability to work in a team, with a high degree
+                of commitment and love for what I do, I like to be in constant
+                learning, be disciplined and have excellent interpersonal
+                relationships.
+              </p>
 
               <button
                 className="text-gradient-color-bg flex w-fit items-center rounded-lg px-6 py-2 text-xl font-semibold text-black"
                 onClick={() => {
-                  contactMeOnClick();
+                  contactMeOnClick()
                 }}
               >
                 HIRE ME
@@ -64,8 +70,6 @@ export default function MainInfo() {
               </button>
             </div>
           </PopUp>
-
-
         </section>
         <Image src="/photoMain.png" width={300} height={150} alt="Photo" />
       </main>

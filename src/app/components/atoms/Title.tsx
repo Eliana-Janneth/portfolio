@@ -6,6 +6,7 @@ type TitleProps = {
   classTitle?: string
 }
 
+//función para crear un título
 export default function Title({ children, size, classTitle }: TitleProps) {
   return (
     <h1

@@ -7,6 +7,8 @@ import {
   Frameworks,
 } from '../organisms'
 import { HorizontalLine } from '../atoms'
+
+//template que contiene los organismos Languages, Skills, ExtraSkills, InfoBase y Frameworks
 export default function SidebarLeft() {
   return (
     <div className="color-primary flex w-full flex-col items-center p-8 lg:w-fit">

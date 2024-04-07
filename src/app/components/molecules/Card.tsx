@@ -9,7 +9,15 @@ type CardProps = {
   children?: React.ReactNode
 }
 
-export default function Card({ iconName, title, text, size, link, children }: CardProps) {
+//función para crear una tarjeta con ícono, título, texto y link  
+export default function Card({
+  iconName,
+  title,
+  text,
+  size,
+  link,
+  children,
+}: CardProps) {
   return (
     <div className="color-primary hover:color-background-primary flex w-full flex-col items-center gap-2 p-4 drop-shadow-xl transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-95 hover:drop-shadow-2xl">
       {children}

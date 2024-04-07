@@ -1,6 +1,7 @@
 import { HorizontalLine, Text, Title } from '../atoms'
 import { EducationCard } from '../molecules'
 
+//función para crear la sección de educación de la página haciendo uso de el componente molecula
 export default function Education() {
   return (
     <main className="flex w-full flex-col gap-4">

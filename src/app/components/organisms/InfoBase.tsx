@@ -1,5 +1,7 @@
 import { ItemText } from '../molecules'
 
+
+//organismo que contiene los componentes moleculas ItemText para mostrar la información base
 export default function InfoBase() {
   return (
     <div className="flex h-min w-full flex-col">
